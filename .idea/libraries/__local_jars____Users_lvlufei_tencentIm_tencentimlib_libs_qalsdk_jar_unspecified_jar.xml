@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="__local_jars__:/Users/lvlufei/tencentIm/tencentimlib/libs/qalsdk.jar:unspecified@jar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/tencentimlib/libs/qalsdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

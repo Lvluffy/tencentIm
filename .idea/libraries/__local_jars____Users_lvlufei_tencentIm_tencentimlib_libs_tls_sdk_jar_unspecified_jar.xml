@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="__local_jars__:/Users/lvlufei/tencentIm/tencentimlib/libs/tls_sdk.jar:unspecified@jar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/tencentimlib/libs/tls_sdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
