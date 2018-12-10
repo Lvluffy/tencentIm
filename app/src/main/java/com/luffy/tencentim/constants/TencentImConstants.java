@@ -1,4 +1,4 @@
-package com.luffy.tencentim;
+package com.luffy.tencentim.constants;
 
 /**
  * Created by lvlufei on 2018/6/5
