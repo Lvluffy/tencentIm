@@ -31,9 +31,9 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     /**appcompat-v7*/
-    compile "com.android.support:appcompat-v7:$rootProject.supportVersion"
+    provided "com.android.support:appcompat-v7:$rootProject.supportVersion"
     /**BaseRecyclerViewAdapter(通用适配器)*/
-    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+    provided 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
     /**IM集成库*/
     compile files('libs/bugly_2.4.0_imsdk_release.jar')
     compile files('libs/imsdk.jar')
