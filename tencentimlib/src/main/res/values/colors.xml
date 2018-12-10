@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--commonColor（常见颜色值）-->
+    <color name="color_D4EBFF">#D4EBFF</color>
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_3D464D">#3D464D</color>
+    <color name="color_5096F5">#5096F5</color>
+    <color name="color_6299FF">#6299FF</color>
+    <color name="color_979899">#979899</color>
+    <color name="color_7A7D81">#7A7D81</color>
+    <color name="color_FF6969">#FF6969</color>
+</resources>

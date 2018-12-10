@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/quick_view_load_more.xml",
+        "source": "/Users/lvlufei/.android/build-cache/16abbba0fce44a52ce8cb6b584b27cd568bcf5c0/output/res/layout/quick_view_load_more.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/tooltip.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/tooltip.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/item_chat_mine.xml",
+        "source": "/Users/lvlufei/tencentIm/tencentimlib/build/intermediates/bundles/default/res/layout/item_chat_mine.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/item_chat_system.xml",
+        "source": "/Users/lvlufei/tencentIm/tencentimlib/build/intermediates/bundles/default/res/layout/item_chat_system.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/item_chat_others.xml",
+        "source": "/Users/lvlufei/tencentIm/tencentimlib/build/intermediates/bundles/default/res/layout/item_chat_others.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/lvlufei/.android/build-cache/4d8bcb41fa8cdb4b0dd54fe5f21fe6933e5dc629/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/lvlufei/tencentIm/app/src/main/res/layout/activity_main.xml"
+    }
+]

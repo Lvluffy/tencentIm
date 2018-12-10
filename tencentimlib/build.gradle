@@ -1,0 +1,48 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.Lvluffy'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    /**构建时关闭错误或者警告提示 */
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    /**appcompat-v7*/
+    compile "com.android.support:appcompat-v7:$rootProject.supportVersion"
+    /**BaseRecyclerViewAdapter(通用适配器)*/
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+    /**IM集成库*/
+    compile files('libs/bugly_2.4.0_imsdk_release.jar')
+    compile files('libs/imsdk.jar')
+    compile files('libs/imsdk_group_ext.jar')
+    compile files('libs/imsdk_msg_ext.jar')
+    compile files('libs/imsdk_sns_ext.jar')
+    compile files('libs/mobilepb.jar')
+    compile files('libs/qalsdk.jar')
+    compile files('libs/soload.jar')
+    compile files('libs/tls_sdk.jar')
+    compile files('libs/wup-1.0.0-SNAPSHOT.jar')
+}

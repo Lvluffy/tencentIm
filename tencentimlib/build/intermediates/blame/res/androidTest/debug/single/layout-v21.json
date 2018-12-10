@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/lvlufei/tencentIm/tencentimlib/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/tencentimlib/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/tencentimlib/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/lvlufei/tencentIm/tencentimlib/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/Users/lvlufei/.android/build-cache/e2ebb98e942d99e2965b13ba03507f7ea42e18d7/output/res/layout-v21/notification_action.xml"
+    }
+]
