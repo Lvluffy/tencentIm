@@ -30,15 +30,15 @@ ext {
     //用于Gradle编译项目的工具版本
     buildToolsVersion = "27.0.2"
     //应用ID
-    applicationId = "com.luffy.utils"
+    applicationId = "com.luffy.tencentim"
     //最低支持Android版本
     minSdkVersion = 15
     //目标版本
     targetSdkVersion = 27
     //应用程序版本号
-    versionCode = 102
+    versionCode = 103
     //应用程序版本名称
-    versionName = "1.0.2"
+    versionName = "1.0.3"
     /**Dependencies（依赖关系）*/
     supportVersion = "27.0.2"
 }
