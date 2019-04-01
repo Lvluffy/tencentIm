@@ -3,17 +3,16 @@ package com.luffy.tencentimlib.helper;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
+import com.luffy.tencentimlib.business.TencentImGroupBusiness;
 import com.luffy.tencentimlib.business.TencentImUserBusiness;
 import com.luffy.tencentimlib.model.ImChatMessageBean;
 import com.tencent.imsdk.TIMConversation;
-import com.tencent.imsdk.TIMConversationType;
 import com.tencent.imsdk.TIMElem;
 import com.tencent.imsdk.TIMElemType;
 import com.tencent.imsdk.TIMGroupSystemElem;
 import com.tencent.imsdk.TIMGroupTipsElem;
 import com.tencent.imsdk.TIMImage;
 import com.tencent.imsdk.TIMImageElem;
-import com.tencent.imsdk.TIMManager;
 import com.tencent.imsdk.TIMMessage;
 import com.tencent.imsdk.TIMTextElem;
 import com.tencent.imsdk.TIMUserProfile;
@@ -41,12 +40,12 @@ public class ChatPresenter implements Observer {
 
     public ChatPresenter(ChatRoomView mChatRoomView, String groupId) {
         this.mChatRoomView = mChatRoomView;
-        conversation = TIMManager.getInstance().getConversation(TIMConversationType.Group, groupId);
+        conversation = TencentImGroupBusiness.getGroupConversation(groupId);
     }
 
     public ChatPresenter(ChatGroupView mChatGroupView, String groupId) {
         this.mChatGroupView = mChatGroupView;
-        conversation = TIMManager.getInstance().getConversation(TIMConversationType.Group, groupId);
+        conversation = TencentImGroupBusiness.getGroupConversation(groupId);
     }
 
     /**

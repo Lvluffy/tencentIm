@@ -69,7 +69,7 @@ public class TencentImGroupBusiness {
      * @param groupId 群组ID
      */
     public static void readMessages(String groupId) {
-        TIMConversation conversation = TIMManager.getInstance().getConversation(TIMConversationType.Group, groupId);
+        TIMConversation conversation = getGroupConversation(groupId);
         TIMConversationExt timConversationExt = new TIMConversationExt(conversation);
         timConversationExt.setReadMessage(null, null);
     }

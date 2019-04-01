@@ -10,10 +10,6 @@ import com.tencent.imsdk.TIMMessage;
  */
 public class ImChatMessageBean implements MultiItemEntity {
 
-    public static final int MINE = 1;//我的消息
-    public static final int OTHERS = 2;//别人的消息
-    public static final int STEWARD = 3;//小希留学管家
-
     private TIMMessage mTIMMessage;//SDK消息
     private ImApiMessageBean mImApiMessageBean;//API消息
     private MessageType type;//消息类型
@@ -118,29 +114,41 @@ public class ImChatMessageBean implements MultiItemEntity {
     public int getItemType() {
         if (getmTIMMessage() != null) {
             if (getmTIMMessage().isSelf()) {
-                return MINE;
+                return ItemType.MINE;
             } else {
                 if (getmTIMMessage().getSenderProfile().getIdentifier().contains("xiaoxi")) {
-                    return STEWARD;
+                    return ItemType.STEWARD;
                 }
-                return OTHERS;
+                return ItemType.OTHERS;
             }
         } else if (getmImApiMessageBean() != null) {
             if (getmImApiMessageBean().isSelf()) {
-                return MINE;
+                return ItemType.MINE;
             } else {
                 if (getmImApiMessageBean().getFromAccount().contains("xiaoxi")) {
-                    return STEWARD;
+                    return ItemType.STEWARD;
                 }
-                return OTHERS;
+                return ItemType.OTHERS;
             }
         }
-        return MINE;
+        return ItemType.MINE;
     }
 
+    /**
+     * 消息类型
+     */
     public enum MessageType {
         TEXT,//文本
         IMAGE,//图片
         GROUP//群消息
+    }
+
+    /**
+     * 子项类型
+     */
+    public static class ItemType {
+        public static final int MINE = 1;//我的消息
+        public static final int OTHERS = 2;//别人的消息
+        public static final int STEWARD = 3;//小希留学管家
     }
 }
