@@ -5,6 +5,8 @@ import com.tencent.imsdk.TIMConversationType;
 import com.tencent.imsdk.TIMManager;
 import com.tencent.imsdk.TIMMessage;
 import com.tencent.imsdk.TIMValueCallBack;
+import com.tencent.imsdk.ext.group.TIMGroupDetailInfo;
+import com.tencent.imsdk.ext.group.TIMGroupManagerExt;
 import com.tencent.imsdk.ext.message.TIMConversationExt;
 
 import java.util.List;
@@ -72,5 +74,15 @@ public class TencentImGroupBusiness {
         TIMConversation conversation = getGroupConversation(groupId);
         TIMConversationExt timConversationExt = new TIMConversationExt(conversation);
         timConversationExt.setReadMessage(null, null);
+    }
+
+    /**
+     * 群成员获取群组资料
+     *
+     * @param groupIdList      需要拉取详细信息的群组 ID 列表，一次最多 50 个
+     * @param timValueCallBack 回调
+     */
+    public static void getGroupInfo(List<String> groupIdList, TIMValueCallBack<List<TIMGroupDetailInfo>> timValueCallBack) {
+        TIMGroupManagerExt.getInstance().getGroupDetailInfo(groupIdList, timValueCallBack);
     }
 }
