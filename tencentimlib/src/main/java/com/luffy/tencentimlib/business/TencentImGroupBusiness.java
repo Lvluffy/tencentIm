@@ -22,7 +22,7 @@ public class TencentImGroupBusiness {
     /**
      * 获取当前群组会话
      *
-     * @param groupId 群组id
+     * @param groupId 群组ID
      * @return
      */
     public static TIMConversation getGroupConversation(String groupId) {
@@ -32,7 +32,7 @@ public class TencentImGroupBusiness {
     /**
      * 获取当前群组未读消息数量
      *
-     * @param groupId 群组id
+     * @param groupId 群组ID
      * @return
      */
     public static long getUnreadMsgNum(String groupId) {
@@ -42,10 +42,26 @@ public class TencentImGroupBusiness {
     }
 
     /**
+     * 获取群组列表未读消息数量
+     *
+     * @param groupIdList 群组ID列表
+     * @return
+     */
+    public static long getUnreadMsgNum(List<String> groupIdList) {
+        long unreadMessageNum = 0;
+        for (String groupId : groupIdList) {
+            TIMConversation mTIMConversation = getGroupConversation(groupId);
+            TIMConversationExt mTIMConversationExt = new TIMConversationExt(mTIMConversation);
+            unreadMessageNum = unreadMessageNum + mTIMConversationExt.getUnreadMessageNum();
+        }
+        return unreadMessageNum;
+    }
+
+    /**
      * 获取当前群组最后一条消息（异步请求）
      *
-     * @param groupId
-     * @param mTIMValueCallBack
+     * @param groupId           群组ID
+     * @param mTIMValueCallBack 回调
      */
     public static void getLastMessage(String groupId, TIMValueCallBack mTIMValueCallBack) {
         TIMConversation mTIMConversation = getGroupConversation(groupId);
@@ -56,7 +72,7 @@ public class TencentImGroupBusiness {
     /**
      * 获取当前群组最后一条消息（同步请求）
      *
-     * @param groupId
+     * @param groupId 群组ID
      * @return
      */
     public static List<TIMMessage> getLastMessage(String groupId) {
@@ -79,7 +95,7 @@ public class TencentImGroupBusiness {
     /**
      * 群成员获取群组资料
      *
-     * @param groupIdList      需要拉取详细信息的群组 ID 列表，一次最多 50 个
+     * @param groupIdList      群组ID列表，一次最多 50 个
      * @param timValueCallBack 回调
      */
     public static void getGroupInfo(List<String> groupIdList, TIMValueCallBack<List<TIMGroupDetailInfo>> timValueCallBack) {
