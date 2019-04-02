@@ -21,6 +21,7 @@ public class ImChatMessageBean implements MultiItemEntity {
     private String typeName;//亲情关系
     private boolean isShow;//是否显示亲情关系
     private int userType;//用户类型（1-学生 2-咨询顾问 3-文签顾问 4-客服 5-小希留学管家 6-亲情号）
+    private boolean isFirst = false;//是否是第一条数据
 
     public ImApiMessageBean getmImApiMessageBean() {
         return mImApiMessageBean;
@@ -108,6 +109,14 @@ public class ImChatMessageBean implements MultiItemEntity {
 
     public void setUserType(int userType) {
         this.userType = userType;
+    }
+
+    public boolean isFirst() {
+        return isFirst;
+    }
+
+    public void setFirst(boolean first) {
+        isFirst = first;
     }
 
     @Override
