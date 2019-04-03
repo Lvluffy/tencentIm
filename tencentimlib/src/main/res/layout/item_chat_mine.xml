@@ -6,25 +6,7 @@
     android:orientation="vertical">
 
     <!--时间-->
-    <LinearLayout
-        android:id="@+id/item_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="@dimen/y15"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/txt_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@drawable/im_bg_date"
-            android:padding="@dimen/x3"
-            android:textColor="@color/color_FFFFFF"
-            android:textSize="@dimen/text_size_11" />
-
-    </LinearLayout>
+    <include layout="@layout/include_chat_time"/>
 
     <!--内容-->
     <RelativeLayout
@@ -36,7 +18,7 @@
 
         <!--头像-->
         <ImageView
-            android:id="@+id/img_counselor_icon"
+            android:id="@+id/img_head_portrait"
             android:layout_width="@dimen/y41"
             android:layout_height="@dimen/y41"
             android:layout_alignParentRight="true"
@@ -46,7 +28,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toLeftOf="@+id/img_counselor_icon"
+            android:layout_toLeftOf="@+id/img_head_portrait"
             android:gravity="right"
             android:orientation="vertical">
 
