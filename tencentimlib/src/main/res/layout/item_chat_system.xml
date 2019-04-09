@@ -60,6 +60,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/color_333333"
                     android:textSize="@dimen/text_size_15"
+                    android:textStyle="bold"
                     tools:text="小希留学管家" />
 
             </LinearLayout>

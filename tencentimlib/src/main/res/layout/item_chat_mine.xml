@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
     <!--时间-->
-    <include layout="@layout/include_chat_time"/>
+    <include layout="@layout/include_chat_time" />
 
     <!--内容-->
     <RelativeLayout
@@ -37,14 +37,19 @@
                 android:id="@+id/txt_send_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/y75"
                 android:layout_marginRight="@dimen/x15"
+                android:layout_marginTop="@dimen/y15"
                 android:autoLink="web"
                 android:background="@drawable/im_bg_content_self"
                 android:lineSpacingExtra="@dimen/y3"
                 android:maxWidth="@dimen/x245"
-                android:padding="@dimen/x10"
+                android:paddingBottom="@dimen/x12"
+                android:paddingLeft="@dimen/x13"
+                android:paddingRight="@dimen/x13"
+                android:paddingTop="@dimen/x12"
                 android:textColor="@color/color_FFFFFF"
-                android:textColorLink="@color/color_6299FF"
+                android:textColorLink="@color/color_FFFFFF"
                 android:textSize="@dimen/text_size_15"
                 tools:text="您好，请问有什么可以帮您的吗？" />
 
