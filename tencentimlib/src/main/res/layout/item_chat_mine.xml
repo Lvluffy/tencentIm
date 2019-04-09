@@ -19,8 +19,8 @@
         <!--头像-->
         <ImageView
             android:id="@+id/img_head_portrait"
-            android:layout_width="@dimen/y41"
-            android:layout_height="@dimen/y41"
+            android:layout_width="@dimen/y45"
+            android:layout_height="@dimen/y45"
             android:layout_alignParentRight="true"
             android:src="@drawable/im_default_self" />
 
@@ -43,9 +43,9 @@
                 android:lineSpacingExtra="@dimen/y3"
                 android:maxWidth="@dimen/x245"
                 android:padding="@dimen/x10"
-                android:textColor="@color/color_3D464D"
+                android:textColor="@color/color_FFFFFF"
                 android:textColorLink="@color/color_6299FF"
-                android:textSize="@dimen/text_size_16"
+                android:textSize="@dimen/text_size_15"
                 tools:text="您好，请问有什么可以帮您的吗？" />
 
             <!--图片内容-->

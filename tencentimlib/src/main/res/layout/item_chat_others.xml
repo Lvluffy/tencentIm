@@ -20,8 +20,8 @@
         <!--头像-->
         <ImageView
             android:id="@+id/img_head_portrait"
-            android:layout_width="@dimen/y41"
-            android:layout_height="@dimen/y41"
+            android:layout_width="@dimen/y45"
+            android:layout_height="@dimen/y45"
             android:src="@drawable/im_default_sender" />
 
         <!--内容-->
@@ -48,7 +48,7 @@
                     android:background="@drawable/im_relation_counselor"
                     android:paddingLeft="@dimen/x2"
                     android:paddingRight="@dimen/x2"
-                    android:textColor="@color/color_5096F5"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/text_size_10"
                     android:visibility="gone"
                     tools:text="其他" />
@@ -59,7 +59,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/color_979899"
-                    android:textSize="@dimen/text_size_12"
+                    android:textSize="@dimen/text_size_11"
                     tools:text="顾问老师" />
 
             </LinearLayout>
@@ -76,7 +76,7 @@
                 android:lineSpacingExtra="@dimen/y3"
                 android:maxWidth="@dimen/x245"
                 android:padding="@dimen/x10"
-                android:textColor="@color/color_3D464D"
+                android:textColor="@color/color_333333"
                 android:textColorLink="@color/color_6299FF"
                 android:textSize="@dimen/text_size_15"
                 tools:text="您好，请问有什么可以帮您的吗？" />

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!--时间-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/item_time"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -12,9 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/im_bg_date"
         android:padding="@dimen/x3"
-        android:textColor="@color/color_FFFFFF"
-        android:textSize="@dimen/text_size_11" />
+        android:textColor="@color/color_999999"
+        android:textSize="@dimen/text_size_11"
+        tools:text="2019-01-01" />
 
 </LinearLayout>
