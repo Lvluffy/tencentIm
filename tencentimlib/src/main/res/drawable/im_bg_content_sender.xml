@@ -14,7 +14,7 @@
             <corners android:topRightRadius="@dimen/x15"
                 android:bottomRightRadius="@dimen/x15"
                 android:bottomLeftRadius="@dimen/x15"/>
-            <solid android:color="@color/color_666666" />
+            <solid android:color="@color/color_F6F6F6" />
         </shape>
     </item>
 </selector>
