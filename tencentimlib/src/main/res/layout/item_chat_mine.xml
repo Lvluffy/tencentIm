@@ -13,8 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/y15"
-        android:paddingLeft="@dimen/x15"
-        android:paddingRight="@dimen/x15">
+        android:paddingLeft="@dimen/y15"
+        android:paddingRight="@dimen/y15">
 
         <!--头像-->
         <ImageView
@@ -37,17 +37,16 @@
                 android:id="@+id/txt_send_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/y75"
-                android:layout_marginRight="@dimen/x15"
+                android:layout_marginLeft="@dimen/y55"
+                android:layout_marginRight="@dimen/y10"
                 android:layout_marginTop="@dimen/y15"
                 android:autoLink="web"
                 android:background="@drawable/im_bg_content_self"
                 android:lineSpacingExtra="@dimen/y3"
-                android:maxWidth="@dimen/x245"
-                android:paddingBottom="@dimen/x12"
+                android:paddingBottom="@dimen/x10"
                 android:paddingLeft="@dimen/x13"
                 android:paddingRight="@dimen/x13"
-                android:paddingTop="@dimen/x12"
+                android:paddingTop="@dimen/x10"
                 android:textColor="@color/color_FFFFFF"
                 android:textColorLink="@color/color_FFFFFF"
                 android:textSize="@dimen/text_size_15"

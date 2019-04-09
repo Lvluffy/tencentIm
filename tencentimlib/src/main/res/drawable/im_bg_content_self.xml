@@ -6,6 +6,8 @@
                 android:bottomRightRadius="@dimen/x15"
                 android:topLeftRadius="@dimen/x15" />
             <solid android:color="@color/color_6C9BF8" />
+
+
         </shape>
     </item>
 
@@ -14,7 +16,7 @@
             <corners android:bottomLeftRadius="@dimen/x15"
                 android:bottomRightRadius="@dimen/x15"
                 android:topLeftRadius="@dimen/x15" />
-            <solid android:color="#556C9BF8" />
+            <solid android:color="#AA6C9BF8" />
         </shape>
     </item>
 
