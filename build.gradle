@@ -36,9 +36,9 @@ ext {
     //目标版本
     targetSdkVersion = 27
     //应用程序版本号
-    versionCode = 109
+    versionCode = 110
     //应用程序版本名称
-    versionName = "1.0.9"
+    versionName = "1.1.0"
     /**Dependencies（依赖关系）*/
     supportVersion = "27.0.2"
 }
