@@ -31,3 +31,14 @@
 
 -keep class qalsdk.**{*;}
 -dontwarn qalsdk.**
+
+-libraryjars libs/bugly_2.4.0_imsdk_release.jar
+-libraryjars libs/imsdk.jar
+-libraryjars libs/imsdk_group_ext.jar
+-libraryjars libs/imsdk_msg_ext.jar
+-libraryjars libs/imsdk_sns_ext.jar
+-libraryjars libs/mobilepb.jar
+-libraryjars libs/qalsdk.jar
+-libraryjars libs/soload.jar
+-libraryjars libs/tls_sdk.jar
+-libraryjars libs/wup-1.0.0-SNAPSHOT.jar
