@@ -32,6 +32,11 @@
 -keep class qalsdk.**{*;}
 -dontwarn qalsdk.**
 
+# 实体类
+-keep class com.luffy.tencentimlib.model.** { *; }
+-keepclassmembers class com.luffy.tencentimlib.model.** { *; }
+
+# libs
 -libraryjars libs/bugly_2.4.0_imsdk_release.jar
 -libraryjars libs/imsdk.jar
 -libraryjars libs/imsdk_group_ext.jar
