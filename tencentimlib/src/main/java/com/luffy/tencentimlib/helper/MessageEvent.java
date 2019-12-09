@@ -1,6 +1,5 @@
 package com.luffy.tencentimlib.helper;
 
-
 import com.tencent.imsdk.TIMManager;
 import com.tencent.imsdk.TIMMessage;
 import com.tencent.imsdk.TIMMessageListener;
@@ -15,22 +14,21 @@ import java.util.Observable;
  */
 public class MessageEvent extends Observable implements TIMMessageListener {
 
-    private volatile static MessageEvent instance;
-
     private MessageEvent() {
         //注册消息监听器
         TIMManager.getInstance().addMessageListener(this);
     }
 
     public static MessageEvent getInstance() {
-        if (instance == null) {
-            synchronized (MessageEvent.class) {
-                if (instance == null) {
-                    instance = new MessageEvent();
-                }
-            }
+        return MessageEventHelper.mMessageEvent;
+    }
+
+    private static class MessageEventHelper {
+        private static MessageEvent mMessageEvent;
+
+        static {
+            mMessageEvent = new MessageEvent();
         }
-        return instance;
     }
 
     @Override
