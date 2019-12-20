@@ -125,7 +125,7 @@ public class ImChatMessageBean implements MultiItemEntity {
             if (getmTIMMessage().isSelf()) {
                 return ItemType.MINE;
             } else {
-                if (getmTIMMessage().getSenderProfile().getIdentifier().contains("xiaoxi")) {
+                if (getmTIMMessage().getSender().contains("xiaoxi")) {
                     return ItemType.STEWARD;
                 }
                 return ItemType.OTHERS;
