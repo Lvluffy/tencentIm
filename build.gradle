@@ -31,7 +31,7 @@ ext {
     //应用ID
     applicationId = "com.luffy.tencentim"
     //最低支持Android版本
-    minSdkVersion = 15
+    minSdkVersion = 16
     //目标版本
     targetSdkVersion = 28
     //应用程序版本号
