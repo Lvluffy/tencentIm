@@ -38,5 +38,5 @@ dependencies {
     /**BaseRecyclerViewAdapter(通用适配器)*/
     provided 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
     /**IM集成库*/
-    api 'com.tencent.imsdk:imsdk:4.6.1'
+    compile 'com.tencent.imsdk:imsdk:4.6.1'
 }
