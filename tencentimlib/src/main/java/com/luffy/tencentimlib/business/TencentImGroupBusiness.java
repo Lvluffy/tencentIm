@@ -1,13 +1,14 @@
 package com.luffy.tencentimlib.business;
 
+import android.support.annotation.NonNull;
+
 import com.tencent.imsdk.TIMConversation;
 import com.tencent.imsdk.TIMConversationType;
+import com.tencent.imsdk.TIMGroupManager;
 import com.tencent.imsdk.TIMManager;
 import com.tencent.imsdk.TIMMessage;
 import com.tencent.imsdk.TIMValueCallBack;
-import com.tencent.imsdk.ext.group.TIMGroupDetailInfo;
-import com.tencent.imsdk.ext.group.TIMGroupManagerExt;
-import com.tencent.imsdk.ext.message.TIMConversationExt;
+import com.tencent.imsdk.ext.group.TIMGroupDetailInfoResult;
 
 import java.util.List;
 
@@ -36,9 +37,7 @@ public class TencentImGroupBusiness {
      * @return
      */
     public static long getUnreadMsgNum(String groupId) {
-        TIMConversation mTIMConversation = getGroupConversation(groupId);
-        TIMConversationExt mTIMConversationExt = new TIMConversationExt(mTIMConversation);
-        return mTIMConversationExt.getUnreadMessageNum();
+        return getGroupConversation(groupId).getUnreadMessageNum();
     }
 
     /**
@@ -50,35 +49,19 @@ public class TencentImGroupBusiness {
     public static long getUnreadMsgNum(List<String> groupIdList) {
         long unreadMessageNum = 0;
         for (String groupId : groupIdList) {
-            TIMConversation mTIMConversation = getGroupConversation(groupId);
-            TIMConversationExt mTIMConversationExt = new TIMConversationExt(mTIMConversation);
-            unreadMessageNum = unreadMessageNum + mTIMConversationExt.getUnreadMessageNum();
+            unreadMessageNum = unreadMessageNum + getGroupConversation(groupId).getUnreadMessageNum();
         }
         return unreadMessageNum;
     }
 
     /**
-     * 获取当前群组最后一条消息（异步请求）
-     *
-     * @param groupId           群组ID
-     * @param mTIMValueCallBack 回调
-     */
-    public static void getLastMessage(String groupId, TIMValueCallBack mTIMValueCallBack) {
-        TIMConversation mTIMConversation = getGroupConversation(groupId);
-        TIMConversationExt timConversationExt = new TIMConversationExt(mTIMConversation);
-        timConversationExt.getMessage(1, null, mTIMValueCallBack);
-    }
-
-    /**
-     * 获取当前群组最后一条消息（同步请求）
+     * 获取当前群组最后一条消息
      *
      * @param groupId 群组ID
      * @return
      */
-    public static List<TIMMessage> getLastMessage(String groupId) {
-        TIMConversation mTIMConversation = getGroupConversation(groupId);
-        TIMConversationExt timConversationExt = new TIMConversationExt(mTIMConversation);
-        return timConversationExt.getLastMsgs(1);
+    public static TIMMessage getLastMessage(String groupId) {
+        return getGroupConversation(groupId).getLastMsg();
     }
 
     /**
@@ -88,17 +71,16 @@ public class TencentImGroupBusiness {
      */
     public static void readMessages(String groupId) {
         TIMConversation conversation = getGroupConversation(groupId);
-        TIMConversationExt timConversationExt = new TIMConversationExt(conversation);
-        timConversationExt.setReadMessage(null, null);
+        conversation.setReadMessage(null, null);
     }
 
     /**
      * 群成员获取群组资料
      *
-     * @param groupIdList      群组ID列表，一次最多 50 个
-     * @param timValueCallBack 回调
+     * @param groupIdList 群组ID列表，一次最多 50 个
+     * @param cb          回调
      */
-    public static void getGroupInfo(List<String> groupIdList, TIMValueCallBack<List<TIMGroupDetailInfo>> timValueCallBack) {
-        TIMGroupManagerExt.getInstance().getGroupDetailInfo(groupIdList, timValueCallBack);
+    public static void getGroupInfo(List<String> groupIdList, @NonNull TIMValueCallBack<List<TIMGroupDetailInfoResult>> cb) {
+        TIMGroupManager.getInstance().getGroupInfo(groupIdList, cb);
     }
 }

@@ -10,6 +10,9 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.versionCode
         versionName rootProject.ext.versionName
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
     }
     /**构建类型-配置*/
     buildTypes {

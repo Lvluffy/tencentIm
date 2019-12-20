@@ -38,14 +38,5 @@ dependencies {
     /**BaseRecyclerViewAdapter(通用适配器)*/
     provided 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
     /**IM集成库*/
-    compile files('libs/bugly_2.4.0_imsdk_release.jar')
-    compile files('libs/imsdk.jar')
-    compile files('libs/imsdk_group_ext.jar')
-    compile files('libs/imsdk_msg_ext.jar')
-    compile files('libs/imsdk_sns_ext.jar')
-    compile files('libs/mobilepb.jar')
-    compile files('libs/qalsdk.jar')
-    compile files('libs/soload.jar')
-    compile files('libs/tls_sdk.jar')
-    compile files('libs/wup-1.0.0-SNAPSHOT.jar')
+    api 'com.tencent.imsdk:imsdk:4.6.1'
 }

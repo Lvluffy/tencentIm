@@ -23,14 +23,7 @@
 #
 #############################################
 # 腾讯IM
--keep class com.tencent.**{*;}
--dontwarn com.tencent.**
-
--keep class tencent.**{*;}
--dontwarn tencent.**
-
--keep class qalsdk.**{*;}
--dontwarn qalsdk.**
+-keep class com.tencent.** { *; }
 
 # 实体类
 -keep class com.luffy.tencentimlib.model.** { *; }

@@ -18,19 +18,19 @@ public class TencentImLoginBusiness {
      *
      * @param identifier 用户帐号
      * @param userSig    用户帐号签名，由私钥加密获得
-     * @param callBack   登录后回调
+     * @param cb   登录后回调
      */
-    public static void loginIM(String identifier, String userSig, TIMCallBack callBack) {
-        TIMManager.getInstance().login(identifier, userSig, callBack);
+    public static void loginIM(String identifier, String userSig, TIMCallBack cb) {
+        TIMManager.getInstance().login(identifier, userSig, cb);
     }
 
     /**
      * 登出imsdk
      *
-     * @param callBack 登出后回调
+     * @param cb 登出后回调
      */
-    public static void logoutIM(TIMCallBack callBack) {
-        TIMManager.getInstance().logout(callBack);
+    public static void logoutIM(TIMCallBack cb) {
+        TIMManager.getInstance().logout(cb);
     }
 
     /**

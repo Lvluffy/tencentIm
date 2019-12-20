@@ -8,6 +8,7 @@ import com.tencent.imsdk.TIMManager;
 import com.tencent.imsdk.TIMSdkConfig;
 import com.tencent.imsdk.TIMUserConfig;
 import com.tencent.imsdk.TIMUserStatusListener;
+import com.tencent.imsdk.session.SessionWrapper;
 
 /**
  * Created by lvlufei on 2018/6/22
@@ -15,18 +16,24 @@ import com.tencent.imsdk.TIMUserStatusListener;
  * @desc 腾讯云通讯-初始化相关业务
  */
 public class TencentImInitBusiness {
-
     /**
      * 初始化SDK
+     *
+     * @param context
+     * @param sdkAppId
+     * @param timForceOffline
      */
-    public static void initImsdk(Context context, int appId, int accountType, final TIMForceOffline timForceOffline) {
-        //初始化SDK基本配置
-        TIMSdkConfig config = new TIMSdkConfig(appId)
-                .setAccoutType(String.valueOf(accountType))
-                .setAppidAt3rd(String.valueOf(appId))
-                .setLogLevel(TIMLogLevel.DEBUG);
-        //初始化SDK
-        TIMManager.getInstance().init(context, config);
+    public static void initImsdk(Context context, int sdkAppId, final TIMForceOffline timForceOffline) {
+        //判断是否是在主线程
+        if (SessionWrapper.isMainProcess(context)) {
+            //初始化SDK基本配置
+            TIMSdkConfig config = new TIMSdkConfig(sdkAppId)
+                    .setAppidAt3rd(String.valueOf(sdkAppId))
+                    .setLogLevel(TIMLogLevel.DEBUG);
+            //初始化SDK
+            TIMManager.getInstance().init(context, config);
+        }
+
         //设置用户基本配置
         TIMUserConfig userConfig = new TIMUserConfig()
                 //设置用户状态变更事件监听器

@@ -17,7 +17,6 @@ import com.tencent.imsdk.TIMMessage;
 import com.tencent.imsdk.TIMTextElem;
 import com.tencent.imsdk.TIMUserProfile;
 import com.tencent.imsdk.TIMValueCallBack;
-import com.tencent.imsdk.ext.message.TIMConversationExt;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -90,8 +89,7 @@ public class ChatPresenter implements Observer {
      * @param message 最后一条消息（SDK消息）
      */
     public void getHistoryMessage(@Nullable TIMMessage message) {
-        TIMConversationExt timConversationExt = new TIMConversationExt(conversation);
-        timConversationExt.getMessage(LAST_MESSAGE_NUM, message, new TIMValueCallBack<List<TIMMessage>>() {
+        conversation.getMessage(LAST_MESSAGE_NUM, message, new TIMValueCallBack<List<TIMMessage>>() {
             @Override
             public void onError(int code, String desc) {
                 Log.i(TAG, "get message failed. code: " + code + " errmsg: " + desc);
@@ -243,8 +241,7 @@ public class ChatPresenter implements Observer {
      * 设置会话为已读
      */
     public void readMessages() {
-        TIMConversationExt timConversationExt = new TIMConversationExt(conversation);
-        timConversationExt.setReadMessage(null, null);
+        conversation.setReadMessage(null, null);
     }
 
     /*----------用户资料----------*/
